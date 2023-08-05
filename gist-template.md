@@ -4,7 +4,11 @@ Regular expressions are patterns we can use to match character combinations in s
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The following regular expression can be used to verify that the user input is a valid email address:
+
+```
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/i
+```
 
 ## Table of Contents
 
